@@ -33,9 +33,9 @@ export const FullResume = React.forwardRef(({ usage }: Props, ref) => {
 
   const animatedComponents: AnimatedComponent[] = [
     { component: HeaderSection, props: { usage }, delay: 0.1 },
-    { component: EducationSection, props: { usage }, delay: 0.3 },
-    { component: WorkSection, props: { usage }, delay: 0.5 },
-    { component: ProjectSection, props: { usage }, delay: 0.7 },
+    { component: WorkSection, props: { usage }, delay: 0.3 },
+    { component: ProjectSection, props: { usage }, delay: 0.5 },
+    { component: EducationSection, props: { usage }, delay: 0.7 },
     { component: SkillSection, props: { usage }, delay: 0.9 },
   ];
   return (
