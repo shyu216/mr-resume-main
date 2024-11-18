@@ -6,6 +6,12 @@ import { LanguageContext } from "@/components/lang/language-provider";
 
 const skills_en = [
   {
+    title: "Languages",
+    description: [
+      "Chinese (native), English (fluent), Cantonese (basic)"
+    ]
+  },
+  {
     title: "Web Development",
     description: [
       "Next.js, Vue.js, and React.js for building web applications;",
@@ -26,6 +32,12 @@ const skills_en = [
 ]
 
 const skills_zh = [
+  {
+    title: "语言",
+    description: [
+      "中文（母语）、英文（流利）、粤语（基础）"
+    ]
+  },
   {
     title: "网页开发",
     description: [
