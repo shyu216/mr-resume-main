@@ -5,14 +5,14 @@ import { Icons } from "@/components/icons";
 import LabelWithGraphic from "@/components/label-with-graphic";
 import { useContext } from "react";
 import { LanguageContext } from "@/components/lang/language-provider";
-import Experience from "@/components/experience";
+import Experience from "@/components/education";
 import Title from "@/components/label-with-link";
 
 const education_en: ExperienceProps[] = [
   {
     head1: "MSc. Computer Science",
-    head2: <Title title="University of Melbourne" icon={Icons.School} link="https://www.unimelb.edu.au" />,
-    head3: <LabelWithGraphic icon={Icons.GraduationCap} content="WAM: 76.5" />,
+    head2: <Title title="The University of Melbourne" icon={Icons.School} link="https://www.unimelb.edu.au" />,
+    head3: <LabelWithGraphic icon={Icons.GraduationCap} content="WAM: 76.25" />,
     head4: "Feb 2024 - Mar 2026(Exp.)",
     bulletPoints: [
 
@@ -24,7 +24,7 @@ const education_en: ExperienceProps[] = [
     head3: <LabelWithGraphic icon={Icons.GraduationCap} content="MGPA: 3.364" />,
     head4: "Sep 2019 - Jul 2023",
     bulletPoints: [
-      "Honours at Entrance, 2019-2020",
+      "Honours at Entrance",
       "Dean's List, 2022-2023",
       "ELITE Stream"
     ]
@@ -36,7 +36,7 @@ const education_zh: ExperienceProps[] = [
   {
     head1: "计算机科学硕士",
     head2: <Title title="墨尔本大学" icon={Icons.School} link="https://www.unimelb.edu.au" />,
-    head3: <LabelWithGraphic icon={Icons.GraduationCap} content="WAM: 76.5" />,
+    head3: <LabelWithGraphic icon={Icons.GraduationCap} content="WAM: 76.25" />,
     head4: "2024年2月 - 2026年3月（预计）",
     bulletPoints: [
 
@@ -48,7 +48,7 @@ const education_zh: ExperienceProps[] = [
     head3: <LabelWithGraphic icon={Icons.GraduationCap} content="MGPA: 3.364" />,
     head4: "2019年9月 - 2023年7月",
     bulletPoints: [
-      "2019-2020年度入学荣誉",
+      "入学荣誉",
       "2022-2023年度院长名单",
       "精英流"
     ]

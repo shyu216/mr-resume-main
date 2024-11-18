@@ -19,9 +19,13 @@ export default function HeaderSection({ usage }: Props) {
     <section>
       <div className="flex justify-between items-center">
         <div className="flex items-center">
-          <h2 className="text-2xl font-bold mr-4 my-1">{
-            language === "en" ? "Sihong Yu" : "余思宏"
-          }</h2>
+          <h2 className="text-2xl font-bold mr-4 my-1">{language === "en" ? (
+            <div>
+              <span className="text-rose-600 dark:text-rose-600">Dale </span>Sihong Yu
+            </div>
+          ) : (
+            "余思宏"
+          )}</h2>
           <SocialLink
             href="mailto:shyu0@qq.com"
             platform="mail"

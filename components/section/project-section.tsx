@@ -16,7 +16,7 @@ type Props = {
 const exp_en: ExperienceProps[] = [
   // {
   //   head1: "Poetry Card",
-  //   head2: <Title title="Open-source Project" icon={Icons.SmartPhone} link="https://github.com/shyu216/ShiYin-Poem-RN" />,
+  //   head2: <Title title="Open-source Project" icon={Icons.SmartPhone} link="https://github.com/shyu216/ccpoems" />,
   //   head3: <LabelWithGraphic icon={Icons.Stack} content="React Native, SQLite" />,
   //   head4: "Dec 2023 - " + now("en"),
   //   bulletPoints: [
@@ -26,6 +26,18 @@ const exp_en: ExperienceProps[] = [
   //     "Published the source code on GitHub and released a downloadable Android application."
   //   ,]
   // },
+  {
+    head1: "Carbon 2 Garden",
+    head2: <Title title="COMP90018 Project" icon={Icons.Code} link="https://github.com/CRUVOD/CarbonTracker" />,
+    head3: <LabelWithGraphic icon={Icons.Stack} content="React Native, Firebase" />,
+    head4: "Sep 2024 - Nov 2024",
+    bulletPoints: [
+      "Developed a mobile app to promote eco-friendly habits through challenges.",
+      "Implemented personalized eco-challenges and gamified features like leaderboards and context-aware bonus challenges.",
+      "Led major development tasks, ensured code quality, resolved technical issues, and improved UI design and user interaction.",
+      "Collaborated with a team of 5 to deliver a functional release and a final demonstration."
+    ]
+  },
   {
     head1: "3D Object Detection",
     head2: <Title title="Final Year Project" icon={Icons.Code} link="https://github.com/shyu216/DPC" />,
@@ -38,18 +50,18 @@ const exp_en: ExperienceProps[] = [
       "Produced a thesis and gave an oral presentation, showcasing the research findings.",
     ],
   },
-  // {
-  //   head1: (<Title title="Draw & Guess Game" icon={Icons.LayoutTemplate} link="https://github.com/easyDG" />),
-  //   head2: <LabelWithGraphic content="Course Project" />,
-  //   head3: <LabelWithGraphic icon={Icons.Stack} content="MySQL, ExpressJS, NodeJS" />,
-  //   head4: "Jan 2022 - May 2022",
-  //   bulletPoints: [
-  //     "As part of a team to create an engaging and interactive web application.",
-  //     "Contribute to the design and development of the application, including the database, user login and profile interfaces, and routing system.",
-  //     "Collaborated with the team to write a thorough specification document, designed and implemented user-friendly interfaces and routers using NodeJS and ExpressJS.",
-  //     "Deployed to AWS EC2, and successfully launched a demo among 4 computers.",
-  //   ]
-  // }
+  {
+    head1: "Draw & Guess Game",
+    head2: <Title title="CSCI3100 Project" icon={Icons.Code} link="https://github.com/easyDG" />,
+    head3: <LabelWithGraphic icon={Icons.Stack} content="MySQL, ExpressJS, NodeJS" />,
+    head4: "Jan 2022 - May 2022",
+    bulletPoints: [
+      "As part of a team to create an engaging and interactive web application.",
+      "Contribute to the design and development of the application, including the database, user login and profile interfaces, and routing system.",
+      "Collaborated with the team to write a thorough specification document, designed and implemented user-friendly interfaces and routers using NodeJS and ExpressJS.",
+      "Deployed to AWS EC2 and launched a demo among 4 computers.",
+    ]
+  }
 ];
 
 const exp_zh: ExperienceProps[] = [
@@ -97,7 +109,7 @@ export default function ProjectSection({ usage }: Props) {
   const exp = language === "en" ? exp_en : exp_zh;
   const title = language === "en" ? "PROJECT" : "项目经历";
 
-  
+
   return (
     <Section title={title} usage={usage}>
       <div className="flex flex-col gap-y-1">

@@ -15,9 +15,10 @@ const exp_en: ExperienceProps[] = [
     head3: <LabelWithGraphic icon={Icons.Stack} content="Next.js, AWS" />,
     head4: "Apr 2023 - Feb 2024",
     bulletPoints: [
-      "To develop a reusable tableware borrowing program, aiding Hong Kong's environmental progress.",
-      "Explored the state-of-the-art solutions to develop and maintain the software application and database.",
-      "Implemented and deployed critical features to enhance user experience and maximize user satisfaction, including user authentication, payment integration, and email notifications, etc.",
+      "Developed a reusable tableware borrowing program, aiding Hong Kong's environmental progress.",
+      "Researched and implemented state-of-the-art solutions to develop and maintain the software application and database.",
+      "Engaged in the UAT process, providing continuous technical support to the team.",
+      "Deployed critical features to enhance user experience, including user authentication, payment integration, and email notifications.",
     ],
   },
 ];
